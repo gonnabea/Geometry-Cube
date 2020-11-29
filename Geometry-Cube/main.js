@@ -1,3 +1,3 @@
-const test = document.getElementById("test")
+const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 1000)
 
-console.log(test)
+console.log(camera)
